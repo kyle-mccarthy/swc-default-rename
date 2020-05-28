@@ -1,0 +1,13 @@
+{
+  "name": "swc-default-key",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/@swc/cli/bin/swc.js index.ts -d out"
+  },
+  "dependencies": {
+    "@swc/cli": "^0.1.24",
+    "@swc/core": "^1.1.49"
+  }
+}
